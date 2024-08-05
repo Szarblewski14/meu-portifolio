@@ -4,32 +4,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifolio</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Meu Portifólio</title>
 </head>
 
 <body>
-    <!--TITULO-->
-    <h1>Leonardo Laurindo Szarblewski</h1>
+    <!--cabeçalho-->
 
-    <!--FOTO-->
-    <img src="./img/3dac9fc7-c133-4e7c-8d9c-a647b8b2f5cd.jpeg" width="360px">
+    <header>
+        <ul>
+            <li>Sobre mim</li>
 
-    <!--DESCRIÇÃO-->
-    <p>Meu nome é <strong>Leonardo</strong>, sou brasileiro, moro no estado do <em>Rio Grande do Sul</em> na cidade de
-        Gravataí
-        <br><br><br>Aprendendo
-    </p>
+            <li><a href="https://szarblewski14.github.io/primeiro-projeto/" target="_blank">Projetos</a></li>
 
-    <!--LISTA DE HABILIDADES QUE POSSUO-->
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JS</li>
-    </ul>
+            <li> <a href="https://www.instagram.com/leonardoszarblewski/?igsh=em03bXMzYjQ4a2Ft&utm_source=qr"
+                    target="_blank">Contato</a></li>
+        </ul>
 
-    <!--COLOCANDO LINK-->
-    <p>Clique em <a href="https://app.betrybe.com/home" target="_blank">Trybe</a> e acesse nosso curso</p>
-</body>
+        <!--foto-->
+        <div class="foto">
+            <img src="./img/Avatar (1).png">
+        </div>
+
+        <!--titulo e subtitulo-->
+        <h1>Leonardo Szarblewski</h1>
+        <h2>Estudante de Programação</h2>
+    </header>
+
+    <!--Parte principal do projeto-->
+
+    <main>
+        <h3>Sobre mim</h3>
+        <p>Meu nome é Leonardo Laurindo Szarblewski, moro em Gravataí/Rs tenho 22 anos e estou estudando desenvolvimento
+            web pela <a href="https://app.betrybe.com/login" target="_blank"><em>Trybe</em></a><br><br>Tenho alguns
+            objetivos como:<br><br><em>Desenvolver projetos no meu tempo livre<br>Solidificar minha base<br>Absorver o
+                máximo de conhecimento durante os estudos<br>Conseguir um estágio na area<br><br>Esses são meus
+                primeiros objetivos na area de desenvolvimento web</em></p>
+
+        <h3>Tempo livre, fora dos estudos</h3>
+        <p>Quando não estou estudando eu gosto de: <br><br><em>Praticar esportes (futebol)<br>Fazer exercicios fisicos
+                (academia)<br>Jogar (jogos de celular ou de computador)<br>Sair para festas etc</em></p>
+    </main>
+
+    <!--icones-->
+    <div id="icons">
+        <a href="https://github.com/Szarblewski14" target="_blank">
+            <ion-icon name="logo-github"></ion-icon>
+        </a>
+
+        <a href="https://www.instagram.com/leonardoszarblewski" target="_blank">
+            <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+
+        <a href="https://www.linkedin.com" target="_blank">
+            <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+
+        <a href="https://www.youtube.com/channel/UCdNdZnvi34vE1SbwNMKpzdA" target="_blank">
+            <ion-icon name="logo-youtube"></ion-icon>
+        </a>
+
+
+        <a href="https://www.facebook.com/leonardoszarblewski" target="_blank">
+            <ion-icon name="logo-facebook"></ion-icon>
+        </a>
+
+    </div>
+
+    <!--Rodapé-->
+    <footer>
+        Feito por <a href="https://github.com/Szarblewski14" target="_blank"><em>Leonardo Szarblewski</em></a>
+    </footer>
+
+
+
+    <!--LINKS DOS ICONES-->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js">
+    </script>
+
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js">
+    </script>
+
+    <script src="./script.js"></script>
 
 </html>
