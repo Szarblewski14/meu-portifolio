@@ -64,16 +64,16 @@ img{
 /*icones estiliando*/
 #icons {
     display: flex;
-  padding: 24px 0;
-  font-size: 24px;
-  justify-content: center;
+    padding: 24px 0;
+    font-size: 24px;
+    justify-content: center;
 }
 
 #icons a{
     display: flex;
-  padding: 16px;
-  border-radius: 50%;
-  transition: 0.3s;
+    padding: 16px;
+    border-radius: 50%;
+    transition: 0.3s;
 }
 #icons a:hover{
     background:rgb(163, 243, 163);
