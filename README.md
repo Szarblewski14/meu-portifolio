@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-Meu portifolio pessoal
+Meu Portifólio pessoal temporário!!
 
-=======
-Um projeto pessoal apenas para praticar e colocar em prática oq aprendi no curso da TRYBE sobre Html e Css.
->>>>>>> refs/remotes/origin/main
+*Usei apenas HTML e CSS
+*Feito para praticar
